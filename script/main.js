@@ -142,7 +142,7 @@ function buildTimeline(rendered) {
 
   // Setup replay
   const replayBtn = document.getElementById("replay");
-  replayBtn.addEventListener("click", () => {
-       tl.restart();
-  });
+  if (replayBtn) {
+    replayBtn.addEventListener("click", () => tl.restart());
+  }
 }
