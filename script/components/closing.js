@@ -30,15 +30,22 @@
         skewX: "15deg"
       };
 
+      // hide replay first
+      gsap.set(el.querySelector("#replay"), {
+        opacity: 0,
+        pointerEvents: "none"
+      });
+
       tl.from(el.querySelector(".closing-text"), {
         duration: 1,
         ...ideaIn,
       })
 
-      .from(el.querySelector("#replay"), {
+      .to(el.querySelector("#replay"), {
         duration: 1,
-        opacity: 0,
-        y: -20,
+        opacity: 1,
+        y: 0,
+        pointerEvents: "auto",
       })
 
       .from(el.querySelector(".last-smile"), {
