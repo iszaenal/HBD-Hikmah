@@ -86,7 +86,7 @@ const CONFIG = {
     },
     {
       type: "quote",
-      text: "Jika tidak ada bahu untuk bersandar, masih ada gehu untuk di dahar.",
+      text: "Dunia ini begitu jahat, tapi juga sangat indah.",
       author: "MULTO",
     },
     {
