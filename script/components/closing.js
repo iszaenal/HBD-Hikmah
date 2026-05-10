@@ -44,6 +44,7 @@
       .set(el.querySelector("#replay"), {
         pointerEvents: "auto",
         opacity: 1,
+        visibility: "visible",
       })
 
       .from(el.querySelector(".last-smile"), {
