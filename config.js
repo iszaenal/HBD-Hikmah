@@ -27,8 +27,8 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
-  photo: "./img/irene.jpg",       // Place your photo in the img/ folder
+  name: "Hikmah Tri Rahayu",
+  photo: "./img/irene.jpeg",       // Place your photo in the img/ folder
   music: "./music/hbd.mpeg",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -70,7 +70,7 @@ const CONFIG = {
     {
       type: "chatbox",
       message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
+        "Happy birthday to you 🤍 May this new chapter bring you peace in every storm, love that feels safe and sincere, and happiness that stays long after the moment passes. I hope you continue to grow into the beautiful soul you are, surrounded by people who truly value your heart. May your days be filled with gentle moments, meaningful memories, and dreams that slowly find their way to you. You deserve a life that feels as beautiful as your soul. ✨",
       buttonText: "Send",
     },
     {
@@ -86,8 +86,8 @@ const CONFIG = {
     },
     {
       type: "quote",
-      text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      text: "Jika tidak ada bahu untuk bersandar, masih ada gehu untuk di dahar.",
+      author: "MULTO",
     },
     {
       type: "stars",
@@ -100,7 +100,7 @@ const CONFIG = {
     {
       type: "profile",
       wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishText: "May the ALLAH always be with you! ;)",
     },
     {
       type: "fireworks",
